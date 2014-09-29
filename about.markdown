@@ -6,12 +6,13 @@ layout: about
 
 ## The Author
 
-I'm Pratik Gupte, a passionate software developer and graphic designer from the India.
-I'm presently working as a researcher and a developer at Indix Inc. in the area of Machine Learning.
+I'm Michael Monteleone, a passionate software developer and graphic designer from the New Orleans area.  I believe good software should be invisible at best, magic and delightful to use at worst, and that simplicity is worth the extra effort to achieve.  Simplicity is the whole point.
 
-My MS by Research at IIT Madras was in the area of graph mining with primary focus on Role Identification and Discovery in large Social Networks.
+While I have written software for multiple Fortune 500 companies and have had work featured in the Wall Street Journal, I don't expect you to be impressed by that.  I certainly wouldn't be.  
 
-I have keen research interests in Machine Learning, Graph Mining and Distributed Systems. Deep Learning was recently caught on my radar.
+Since graduating from [LSU](http://www.csc.lsu.edu/), I have lived in Baton Rouge, but I still refuse to call it home.  In a past life, I was a painter and musician and hope to revisit both of these soon.
+
+Mac.  TextMate (but I'm giving Vim the fair chance it deserves).  Visual Studio by day.
 
 ## The Site
 

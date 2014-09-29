@@ -540,7 +540,7 @@ body.home #content div.banner {
     width: 100%;
     }
     body.home #content div.banner h1 {
-        font-size: 85pt;
+        font-size: 165pt;
         letter-spacing: -2pt;
         text-indent: -12pt;
         position: relative;
@@ -560,24 +560,12 @@ body.home #content div.colophon {
         position: relative;
         top: -4px;
         line-height: 1.6em;
-        font-size: 0.9em;
+        font-size: 1.0em;
         font-family: Helvetica, Arial, sans-serif;     
 		width: auto;
 		margin-bottom: 1.2em;
         }
         body.home #content div.colophon p a {
-            font-weight: bold;
-            }
-    body.home #content div.polophon p {
-        position: relative;
-        top: -4px;
-        line-height: 1.6em;
-        font-size: 0.9em;
-        font-family: Helvetica, Arial, sans-serif;     
-		width: auto;
-		margin-bottom: 1.2em;
-        }
-        body.home #content div.polophon p a {
             font-weight: bold;
             }
 body.home #content div.section {

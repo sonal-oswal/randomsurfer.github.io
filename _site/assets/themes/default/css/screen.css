@@ -185,7 +185,11 @@ nav#main_nav {
             display: inline;
             }
 
+            nav#main_nav ul li a.projects,
+
             nav#main_nav ul li a.about,
+
+            nav#main_nav ul li a.journal,
 
             nav#main_nav ul li a {
                 border-bottom: 0px;
@@ -203,6 +207,14 @@ nav#main_nav {
 				font-weight: normal;
                 }
 
+            nav#main_nav ul li a.projects:hover,
+            .projects nav#main_nav ul li a.projects,
+            .projects nav#main_nav ul li a.projects:hover,
+            .open nav#main_nav ul li a.projects:hover {
+                background-color: #000000;
+                color: #FFFFFF;					
+                }
+
             nav#main_nav ul li a.about:hover,
             .about nav#main_nav ul li a.about,
             .about nav#main_nav ul li a.about:hover,
@@ -211,9 +223,21 @@ nav#main_nav {
                 color: #FFFFFF;					
                 }
 
+            nav#main_nav ul li a.journal:hover,
+            .journal nav#main_nav ul li a.journal,
+            .journal nav#main_nav ul li a.journal:hover,
+            .open nav#main_nav ul li a.journal:hover {
+                background-color: #000000;
+                color: #FFFFFF;					
+                }
 
+
+
+            .open nav#main_nav ul li a.projects,
 
             .open nav#main_nav ul li a.about,
+
+            .open nav#main_nav ul li a.journal,
 
             .open nav#main_nav ul li a.stub {
                 background-color: transparent;
@@ -501,7 +525,7 @@ nav#main_nav {
             footer section.colophon {
                 padding-left: 80px;
                 width: 140px;
-                background-image: url();
+                background-image: url(http://www.gravatar.com/avatar/392da320b3aa4068d0b03024135875fb?s=70);
                 background-repeat: no-repeat;
                 background-position: 0px 45px;
                 }
@@ -526,7 +550,7 @@ body.home #content div.banner {
     width: 100%;
     }
     body.home #content div.banner h1 {
-        font-size: 85pt;
+        font-size: 165pt;
         letter-spacing: -2pt;
         text-indent: -12pt;
         position: relative;
@@ -546,24 +570,12 @@ body.home #content div.colophon {
         position: relative;
         top: -4px;
         line-height: 1.6em;
-        font-size: 0.9em;
+        font-size: 1.0em;
         font-family: Helvetica, Arial, sans-serif;     
 		width: auto;
 		margin-bottom: 1.2em;
         }
         body.home #content div.colophon p a {
-            font-weight: bold;
-            }
-    body.home #content div.polophon p {
-        position: relative;
-        top: -4px;
-        line-height: 1.6em;
-        font-size: 0.9em;
-        font-family: Helvetica, Arial, sans-serif;     
-		width: auto;
-		margin-bottom: 1.2em;
-        }
-        body.home #content div.polophon p a {
             font-weight: bold;
             }
 body.home #content div.section {

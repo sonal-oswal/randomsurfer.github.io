@@ -1,22 +1,30 @@
-title: Pratik Gupte
+title: Michael Monteleone
 url: http://michaelmonteleone.net
-description: 'Personal site of Pratik Gupte'
+description: 'Personal site of Michael Monteleone, software developer and designer from New Orleans'
 keywords:
- - Pratik Gupte
- - randomsurfer	
+ - Michael Monteleone
+ - Mike Monteleone
+ - namelessmike
 
 author:
-    name: Pratik Gupte
-    email: pratik.gupte@gmail.com
-    github: http://github.com/randomsurfer
-    linkedin: https://www.linkedin.com/in/pgupte/
+    name: Michael Monteleone
+    email: michael@michaelmonteleone.net
+    twitter: http://twitter.com/namelessmike
+    github: http://github.com/mmonteleone
+    delicious: http://delicious.com/namelessmike
+    pinboard: http://pinboard.in/u:namelessmike
+    googleplus: http://plus.google.com/100369739207842495161
+    facebook: http://www.facebook.com/michael.monteleone
+    linkedin: http://www.linkedin.com/in/michaelmonteleone/
+    avatar: http://www.gravatar.com/avatar/392da320b3aa4068d0b03024135875fb?s=70
     openid:
         server: https://www.google.com/accounts/o8/ud
         delegate: http://www.google.com/profiles/namelessmike
     
 sections:
+ - projects
  - about
-
+ - journal 
 stylesheets:
  - /assets/themes/default/css/screen.css?52480=52480
  - /assets/themes/default/css/print.css

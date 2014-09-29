@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Pratik Gupte</title>
+ <title>Michael Monteleone</title>
  <link href="http://michaelmonteleone.net/feed.xml" rel="self"/>
  <link href="http://michaelmonteleone.net/"/>
- <updated>2014-09-28T23:49:55+05:30</updated>
+ <updated>2014-09-29T19:43:18+05:30</updated>
  <id>http://michaelmonteleone.net/</id>
  <author>
-   <name>Pratik Gupte</name>
-   <email>pratik.gupte@gmail.com</email>
+   <name>Michael Monteleone</name>
+   <email>michael@michaelmonteleone.net</email>
  </author>
 
  
@@ -27,7 +27,7 @@
 
 &lt;p&gt;I’m not comparing rendering engines — I deliberately erased the content to cancel that variable.  No, I’m comparing the &lt;em&gt;browsers&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Hanlon&#39;s_razor&quot;&gt;Hanlon’s Razor&lt;/a&gt; can only &lt;em&gt;barely&lt;/em&gt; slice into what could otherwise be interpreted as ill will toward users and near-total disregard for painstakingly-crafted Web content.  Yes, this is &lt;em&gt;personal&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Hanlon's_razor&quot;&gt;Hanlon’s Razor&lt;/a&gt; can only &lt;em&gt;barely&lt;/em&gt; slice into what could otherwise be interpreted as ill will toward users and near-total disregard for painstakingly-crafted Web content.  Yes, this is &lt;em&gt;personal&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;no-hierarchy&quot;&gt;No hierarchy&lt;/h3&gt;
 
@@ -60,7 +60,7 @@
 &lt;p&gt;Let’s hope the Internet Explorer 9 team invests in the browser as much as they have already invested in its rendering engine.&lt;/p&gt;
 </content>
    <author>
-     <name>Pratik Gupte</name>
+     <name>Michael Monteleone</name>
      <uri>http://michaelmonteleone.net</uri>
    </author>   
  </entry>
@@ -98,17 +98,17 @@ form#supergenpass_test {
 
 &lt;script type=&quot;text/javascript&quot;&gt;
 (function($) {
-    var eventName = &#39;masterPassword&#39;,
-        genPassInput = &#39;#gp2_pass_box input[type=&quot;password&quot;]&#39;,
-        genPassButton = &#39;#gp2_pass_box input[type=&quot;button&quot;]&#39;;
+    var eventName = 'masterPassword',
+        genPassInput = '#gp2_pass_box input[type=&quot;password&quot;]',
+        genPassButton = '#gp2_pass_box input[type=&quot;button&quot;]';
     $.event.special.masterPassword = {
         setup: function() {
             var elem = $(this),
                 captureMasterPassword = function() {
                     elem.trigger(eventName, $(genPassInput).val());
                 };
-            $(genPassButton).live(&#39;click&#39;, captureMasterPassword);
-            $(genPassInput).live(&#39;keydown&#39;, function(e) {
+            $(genPassButton).live('click', captureMasterPassword);
+            $(genPassInput).live('keydown', function(e) {
                 if (e.keyCode === 13) { captureMasterPassword(e); }
             });
         }
@@ -116,10 +116,10 @@ form#supergenpass_test {
 })(jQuery);
 
 jQuery(function($){
-    $(document).bind(&#39;masterPassword&#39;, function(e, data) {
-        $(&#39;&lt;div&gt;&lt;em&gt;Be safe, stop using SuperGenPass.  Your master password is: &lt;strong&gt;&#39; + data +&#39;&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;&#39;)
+    $(document).bind('masterPassword', function(e, data) {
+        $('&lt;div&gt;&lt;em&gt;Be safe, stop using SuperGenPass.  Your master password is: &lt;strong&gt;' + data +'&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;')
             .hide()
-            .appendTo($(&#39;#supergenpass_test&#39;))
+            .appendTo($('#supergenpass_test'))
             .show(300);
     });        
 });
@@ -196,7 +196,7 @@ jQuery(function($){
 &lt;p&gt;Be careful out there.&lt;/p&gt;
 </content>
    <author>
-     <name>Pratik Gupte</name>
+     <name>Michael Monteleone</name>
      <uri>http://michaelmonteleone.net</uri>
    </author>   
  </entry>
@@ -240,7 +240,7 @@ jQuery(function($){
 
 &lt;p&gt;That’s easy to allow for with the aid of jQuery Special Events.  Many people tend to equate jQuery plugins with with extending the &lt;code&gt;jQuery.fn&lt;/code&gt; object, but fewer are familiar with extending jQuery’s events via the Special Events API.  Though &lt;a href=&quot;http://benalman.com/news/2010/03/jquery-special-events/&quot;&gt;much&lt;/a&gt; &lt;a href=&quot;http://brandonaaron.net/blog/2009/03/26/special-events&quot;&gt;has&lt;/a&gt; &lt;a href=&quot;http://brandonaaron.net/blog/2009/06/4/jquery-edge-new-special-event-hooks&quot;&gt;been&lt;/a&gt; &lt;a href=&quot;http://brandonaaron.net/blog/2010/02/25/special-events-the-changes-in-1-4-2&quot;&gt;written&lt;/a&gt; about the Special Events API, I’ve found it easiest to understand as simply a mechanism for executing code &lt;em&gt;upon the actual binding or unbinding&lt;/em&gt; of a given event.  &lt;/p&gt;
 
-&lt;p&gt;So, &lt;code&gt;$(document).bind(&#39;atlasEndRequest&#39;, function(){...})&lt;/code&gt; is not only binding a callback to a custom event, it’s also setting up background logic to properly &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;atlasEndRequest&lt;/em&gt; custom event when necessary.&lt;/p&gt;
+&lt;p&gt;So, &lt;code&gt;$(document).bind('atlasEndRequest', function(){...})&lt;/code&gt; is not only binding a callback to a custom event, it’s also setting up background logic to properly &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;atlasEndRequest&lt;/em&gt; custom event when necessary.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;special&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;atlasEndRequest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;c1&quot;&gt;// following happens the first time &amp;#39;atlasUpdateEvent&amp;#39; is bound on a selection&lt;/span&gt;
@@ -339,7 +339,7 @@ jQuery(function($){
 &lt;p&gt;You can grab this plugin along with its small test suite from &lt;a href=&quot;http://github.com/mmonteleone/jquery.updatepanel&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
    <author>
-     <name>Pratik Gupte</name>
+     <name>Michael Monteleone</name>
      <uri>http://michaelmonteleone.net</uri>
    </author>   
  </entry>
@@ -653,7 +653,7 @@ operation without first casting it to a delegate or expression tree type.
 &lt;p&gt;DynamicBuilder is a work in progress.  Please feel free to fork away.  &lt;/p&gt;
 </content>
    <author>
-     <name>Pratik Gupte</name>
+     <name>Michael Monteleone</name>
      <uri>http://michaelmonteleone.net</uri>
    </author>   
  </entry>
@@ -696,7 +696,7 @@ operation without first casting it to a delegate or expression tree type.
 &lt;p&gt;Let’s get on with it.&lt;/p&gt;
 </content>
    <author>
-     <name>Pratik Gupte</name>
+     <name>Michael Monteleone</name>
      <uri>http://michaelmonteleone.net</uri>
    </author>   
  </entry>
