@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Michael Monteleone</title>
+ <link href="http://michaelmonteleone.net/feed.xml" rel="self"/>
+ <link href="http://michaelmonteleone.net/"/>
+ <updated>2014-09-30T00:03:20+05:30</updated>
+ <id>http://michaelmonteleone.net/</id>
+ <author>
+   <name>Pratik Gupte</name>
+   <email>pratik.gupte@gmail.com</email>
+ </author>
+
+ 
+ 
+</feed>
