@@ -185,11 +185,9 @@ nav#main_nav {
             display: inline;
             }
 
-            nav#main_nav ul li a.projects,
-
             nav#main_nav ul li a.about,
 
-            nav#main_nav ul li a.journal,
+            nav#main_nav ul li a.research,
 
             nav#main_nav ul li a {
                 border-bottom: 0px;
@@ -207,14 +205,6 @@ nav#main_nav {
 				font-weight: normal;
                 }
 
-            nav#main_nav ul li a.projects:hover,
-            .projects nav#main_nav ul li a.projects,
-            .projects nav#main_nav ul li a.projects:hover,
-            .open nav#main_nav ul li a.projects:hover {
-                background-color: #000000;
-                color: #FFFFFF;					
-                }
-
             nav#main_nav ul li a.about:hover,
             .about nav#main_nav ul li a.about,
             .about nav#main_nav ul li a.about:hover,
@@ -223,21 +213,19 @@ nav#main_nav {
                 color: #FFFFFF;					
                 }
 
-            nav#main_nav ul li a.journal:hover,
-            .journal nav#main_nav ul li a.journal,
-            .journal nav#main_nav ul li a.journal:hover,
-            .open nav#main_nav ul li a.journal:hover {
+            nav#main_nav ul li a.research:hover,
+            .research nav#main_nav ul li a.research,
+            .research nav#main_nav ul li a.research:hover,
+            .open nav#main_nav ul li a.research:hover {
                 background-color: #000000;
                 color: #FFFFFF;					
                 }
 
 
 
-            .open nav#main_nav ul li a.projects,
-
             .open nav#main_nav ul li a.about,
 
-            .open nav#main_nav ul li a.journal,
+            .open nav#main_nav ul li a.research,
 
             .open nav#main_nav ul li a.stub {
                 background-color: transparent;
@@ -525,7 +513,7 @@ nav#main_nav {
             footer section.colophon {
                 padding-left: 80px;
                 width: 140px;
-                background-image: url(http://www.gravatar.com/avatar/392da320b3aa4068d0b03024135875fb?s=70);
+                background-image: url();
                 background-repeat: no-repeat;
                 background-position: 0px 45px;
                 }

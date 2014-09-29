@@ -65,29 +65,16 @@
         <footer>
             <section title="Colophon" class="colophon" itemscope itemtype="http://data-vocabulary.org/Person">
                 <h1>Explain Yourself</h1>
-                <p><span itemprop="name">Michael Monteleone</span> is a <span itemprop="role">software developer and designer</span> from <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">New Orleans</span></span>.  This is his site.  <a href="/about/" title="More about Michael">Read on.</a></p>
+                <p><span itemprop="name">Pratik Gupte</span> is a <span itemprop="role">Data Scientist</span> at <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">Indix.com</span></span>.  This is his site.  <a href="/about/" title="More about Michael">Read on.</a></p>
                 <p>Also,</p>
                 <nav>
                     <ul>
                         <li class="hide"><a itemprop="url" href="/" title="You are Here">Site</a></li>
-                        <li><a href="{{ site.author.twitter }}" title="Pithy Nonsense">Twitter</a></li>
                         <li><a href="{{ site.author.github }}" title="The Secret Codes">GitHub</a></li>
-                        <li><a href="{{ site.author.googleplus }}" title="The New Thing">Google+</a></li>
-                        <li><a href="{{ site.author.pinboard }}" title="Bookmarks">Pinboard</a></li>
-                        <li><a href="{{ site.author.facebook }}" title="Be my friend, total stranger.">Facebook</a></li>
                         <li><a href="{{ site.author.linkedin }}" title="The Social Network with Sleeves.">LinkedIn</a></li>
                         <li><a href="mailto:{{ site.author.email }}" title="You remember email, right?">Email</a></li>
-                        <li><a href="/feed.xml" title="Just kidding, it's an Atom feed">RSS</a></li>
                     </ul>
                 </nav>
-            </section>
-            <section title="Bookmarks" class="bookmarks">
-                <h1><a href="{{ site.author.pinboard }}" title="Bookmarks">Read All Over</a></h1>
-                <nav></nav>
-            </section>
-            <section title="Twitter Stream" class="twitter">
-                <h1><a href="{{ site.author.twitter }}" title="Twitter Stream">@namelessmike</a></h1>
-                <nav></nav>
             </section>
             <section title="Copyright" class="attribution">
                 <p>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.author.name }}.  <a href="http://creativecommons.org/licenses/by/3.0/us/">Some rights reserved</a>.</p>
@@ -97,6 +84,5 @@
     </div>    
 </div>
 </div>
-{% include analytic.html %}
 </body>
 </html>
