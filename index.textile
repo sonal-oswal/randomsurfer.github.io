@@ -1,0 +1,47 @@
+---
+layout: home
+---
+
+<div class="banner">
+
+h1. Namaste.
+
+</div>
+
+<div class="colophon">
+
+I am presently working as a Data Scientist at Indix.com. I'm part of the CAM (Classification, Attribute extraction and Matching) Group. I have primarily worked in building predictive models for product categorization and for automatically extracting important product attributes from product pages.
+
+Previously, I was Master of Science by Research student at the Computer Science and Engineering department at the Indian Institute of Technology (IIT) Madras. I was advised by Dr. B. Ravindran. I worked in graph mining, specifically my research thesis was in Role Identification and Discovery in Social Networks.
+
+You can reach me at pratik[dot]gupte[at]gmail[dot]com
+</div>
+
+<div class="polophon">
+<h4>Research Interests</h4>
+Machine Learning, Graph Mining, Deep Learning and Distributed Systems.
+
+<h4>Education</h4>
+M.S. by Research, Department of Computer Science and Engineering, IIT Madras (2014).
+B.E. with Honours, Bhilai Institute of Technology, Durg (2006).
+
+<h4>Publications</h4>
+Gupte, P. V. and Ravindran, B. (2014) "Scalable Positional Analysis for Studying Evolution of Nodes in Networks". Accepted for presentation in the Workshop on Mining Networks and Graphs, at the Siam Conference on Data Mining (SDM 14). "arXiv":http://arxiv.org/abs/1402.3797
+
+Gupte, P. and Ravindran, B. (2012) "Multiple Epsilon Equitable Partitions - Roles and Positional Analysis for Real World Networks". Accepted for presentation at the Thirty Second Sunbelt Social Networks Conference (Sunbelt XXXII).
+
+<h4>Professional Experience</h4>
+Data Scientist, Indix.com, Chennai (Sep. 2012 - Present).
+Project (Research) Associate, IIT Madras, Chennai (Jan. 2011 - Mar 2012).
+Software Engineer, Infosys (INFY), Pune (Mar 2007 - Dec 2007).
+
+<h4>Relevant Courses at IIT Madras</h4>
+Machine Learning (Audit)
+Data Mining (Audit)
+Social Network Analysis (Audit)
+Planning and Constraint Satisfaction
+Mathematical Concepts for Computer Science
+Real Time Communication and Computing
+Device Drivers Practicum
+
+</div>
